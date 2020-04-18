@@ -14,8 +14,8 @@ development:
   reconnect: false
   database: octopress-admin_development
   pool: 5
-  username: root
-  password:
+  username:  root
+  password: 123123@q
   socket: /tmp/mysql.sock
 
 # Warning: The database defined as "test" will be erased and
@@ -28,7 +28,7 @@ test:
   database: octopress-admin_test
   pool: 5
   username: root
-  password:
+  password: 123123@q
   socket: /tmp/mysql.sock
 
 production:
@@ -37,6 +37,6 @@ production:
   reconnect: false
   database: octopress-admin_production
   pool: 5
-  username: root
-  password:
+  username: ngnam
+  password: 123123@q
   socket: /tmp/mysql.sock

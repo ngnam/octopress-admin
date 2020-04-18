@@ -1,8 +1,8 @@
 source 'http://rubygems.org'
 
-gem 'rails', '3.2.2'
+gem 'rails', '3.2.14'
 gem 'active_attr'
-gem 'mysql2'
+gem 'mysql2', '~> 0.3.21'
 gem 'jquery-rails'
 gem 'bcrypt-ruby', '~> 3.0.0'
 gem 'capistrano'
@@ -11,12 +11,12 @@ gem 'nokogiri'
 gem 'delayed_job_active_record'
 gem 'will_paginate', '~> 3.0'
 gem 'will_paginate-bootstrap'
-gem "delayed_job_admin", :git => "git://github.com/dje29/delayed_job_admin.git"
+gem "delayed_job_admin", :git => "https://github.com/ngnam/delayed_job_admin.git", :branch => "master"
 
 group :octopress do
-  gem 'rake'
+  gem 'rake', '12.3.1'
   gem 'rack'
-  gem 'jekyll', :git => "git@github.com:yortz/jekyll.git", :branch => "edge"
+  gem 'jekyll', :git => "https://github.com/ngnam/jekyll.git", :branch => "master"
   gem 'rdiscount'
   gem 'pygments.rb'
   gem 'RedCloth'
@@ -25,7 +25,7 @@ group :octopress do
   gem 'rubypants'
   gem 'rb-fsevent'
   gem 'stringex'
-  gem 'liquid', '2.2.2'
+  gem 'liquid', '4.0'
   gem 'mini_magick'
 end
 
